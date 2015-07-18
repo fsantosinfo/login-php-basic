@@ -1,0 +1,47 @@
+#form{
+	width:300px;
+	height:250px;
+	margin-left:-150px;
+	margin-top:-125px;
+	background-color:#FAFAFA;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border: solid #868686 3px;
+}
+
+form{
+padding:20px;	
+}
+
+.user{
+	width:245px;
+	height:30px;
+	margin-bottom:20px;
+	padding:4px;
+}
+
+.pass{
+	width:245px;
+	height:30px;
+	margin-bottom:20px;
+	padding:4px;
+}
+
+.login{
+	width:100%;
+	padding:4px;
+	height:40px;
+}
+
+img{
+	margin-bottom:10px;
+	float:left;
+}
+
+h1{
+	font-family:"Arial Narrow";
+	font-size:12pt;
+	margin-left:10px;
+	float:left;
+}
