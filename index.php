@@ -1,6 +1,17 @@
+<?php 
+session_start(); 
+if(isset ($_SESSION['user']) == true) 
+{header('location:home.php'); return die;}
+?>
 <!DOCTYPE html>
 <html lang="pt">
 	<head>
+		
+		<!-- Sistema de Login Basico, apenas para implementação basica.
+			 Criado por: Francisco Santos
+			 Codigo Open Source, ao usar favor dar o Crédito e caso faça melhorias, favor remete-las, obrigado.
+	   -->
+	   
 		<title>Login</title>
 		<link type="text/css" rel="stylesheet" href="layout.css">
 		<meta charset="utf-8" />
